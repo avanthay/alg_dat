@@ -38,6 +38,10 @@ public class OwnInteger{
 		return this.next;
 	}
 	
+	public void changeNext(OwnInteger element){
+		this.next = element;
+	}
+	
 	@Override
 	public String toString(){
 		return wert.toString();
